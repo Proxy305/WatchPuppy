@@ -3,10 +3,10 @@
 Using WatchPuppy, you can easily turn your Raspberry Pi into a surveillance camera.
 
 ##Function
-With WatchPuppy you can:
+WatchPuppy can:
 * Record H.264 video clips
-* Clean up unneeded clips
-* Real-time video streaming
+* Clean up unneeded clips automatically
+* Stream real-time video via HTTP
 
 ##Hardware Requirements
 
@@ -20,14 +20,21 @@ With WatchPuppy you can:
 
 ##Usage
 First, you should install VideoLan on your Raspberry Pi.
->sudo apt-get install vlc
+```
+sudo apt-get install vlc
+```
 
 Next, you should install PiCamera module. You can install via `apt`:
->sudo apt-get install picamera
+```
+sudo apt-get install picamera
+```
+
 You can install PiCamera via PIP as well.
 
 Then you are ready to start the main program of WatchPuppy:
->python portal.py
+```
+python portal.py
+```
 
 ##Configuration
 ###Change recording resolution
